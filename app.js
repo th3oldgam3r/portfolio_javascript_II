@@ -58,8 +58,8 @@ app.post('/contact', function(req, res, next) {
     var subject = req.body.subject;
     // step 2
     let mailOptions = {
-        from: 'marcoscacciotti82@gmail.com',
-        to: 'marcoscacciotti82@gmail.com',
+        from: 'email@gmail.com',
+        to: 'email@gmail.com',
         subject: req.body.subject,
         text: req.body.note,
         html: "<b>Full Name   </b>" + name + "<br><b>Email   </b>" + email + "<br><b>Message   </b>" + note// html body
